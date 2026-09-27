@@ -1,0 +1,9 @@
+
+> hello-world@1.0.0 test:e2e
+> tsx scripts/e2e-check.ts
+
+2026-09-25 20:11:42        RPC-CORE: subscribeRuntimeVersion(): RuntimeVersion:: disconnected from ws://127.0.0.1:9944/: 1000:: Normal Closure
+2026-09-25 20:11:42        RPC-CORE: subscribeRuntimeVersion(): RuntimeVersion:: disconnected from ws://127.0.0.1:9944/: 1000:: Normal Closure
+✅ e2e-check passed
+   contractAddress: f24cdaa47baf14740252724017ccf795aeb122e500ee231a5a8c57fe0ee4b8ce
+   network:         undeployed

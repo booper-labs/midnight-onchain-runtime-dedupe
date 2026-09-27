@@ -1,0 +1,13 @@
+{
+  "_comment": "Merge these fragments into a create-mn-app hello-world (or similar) package.json. Pin matches midnight-js-protocol@4.1.1 exact onchain-runtime-v3@3.0.0. Verified on local undeployed only (see VERSIONS.md). Not a full package; not official Midnight guidance.",
+  "dependencies": {
+    "@midnight-ntwrk/onchain-runtime-v3": "3.0.0"
+  },
+  "overrides": {
+    "@midnight-ntwrk/onchain-runtime-v3": "3.0.0"
+  },
+  "scripts": {
+    "postinstall": "node scripts/dedupe-onchain-runtime.mjs",
+    "check:onchain-runtime": "node scripts/check-single-onchain-runtime.mjs"
+  }
+}
