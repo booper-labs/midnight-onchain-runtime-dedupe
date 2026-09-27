@@ -1,0 +1,31 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║                   hello-world CLI                           ║
+╚══════════════════════════════════════════════════════════════╝
+
+  Contract: f24cdaa47baf14740252724017ccf795aeb122e500ee231a5a8c57fe0ee4b8ce
+  Network: undeployed
+
+  Connecting to wallet...
+  Restored 3/3 child wallets from .midnight-wallet-state — sync will resume from saved point.
+  Syncing with network...
+  ℹ  This may take several minutes depending on network size.
+     RPC disconnection messages during sync are normal and can be safely ignored.
+
+2026-09-25 20:11:49        RPC-CORE: subscribeRuntimeVersion(): RuntimeVersion:: disconnected from ws://127.0.0.1:9944/: 1000:: Normal Closure
+2026-09-25 20:11:49        RPC-CORE: subscribeRuntimeVersion(): RuntimeVersion:: disconnected from ws://127.0.0.1:9944/: 1000:: Normal Closure
+  ✓ Synced with network.                                      
+  Balance: 250,000,000,000,000 tNight
+
+  Connecting to contract...
+  ✅ Connected!
+
+
+  Submitting storeMessage("hello-publish-verify-201146") — prove+submit may take 30-60s...
+STORE_OK message="hello-publish-verify-201146"
+TX_ID=0017e1493c91cc94d47bd0a03dcb8f523447382257647e5c736e0990fcec2e4b91
+BLOCK_HEIGHT=782
+
+  Reading message from blockchain...
+READ_OK message="hello-publish-verify-201146"
+INTERACT_DONE
